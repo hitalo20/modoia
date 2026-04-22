@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodeio Quiz | Cavalo & Caubói</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">🤠 RODEIO QUIZ ✦</h1>
+            <p class="subtitle">CAUBÓI · LENDA DO LAÇO</p>
+        </header>
+
+        <div class="timer-section">
+            <span class="timer-label">⏱️ TEMPO RESTANTE</span>
+            <div class="timer" id="timer">3d 00h 00m 00s</div>
+        </div>
+
+        <div class="quiz-container">
+            <div class="question-header">
+                <span id="question-counter">QUESTÃO 1/8</span>
+                <span id="score-display">🎯 PONTOS: 0</span>
+            </div>
+            <div class="question-text" id="question-text">
+                Carregando pergunta...
+            </div>
+            <div class="options" id="options-container">
+                <!-- Opções serão inseridas via JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
